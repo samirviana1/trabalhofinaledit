@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+:root{
+    --primary-color: #2f2841;
+    --background-color:#4169E1;
+    --alerta-color:#d33220;
+    --sucesso-color:#2ecc71;
+    --button-color: #007dc6;
+    --text-field:#f0ffffde;
+    --primary-mens-wthite:#f0f0f0;
+    --secundary-mens-white:#fff;
+    --login-secundary:#00ff88;
+    --box-shadow-padrao: 0px 10px 40px #00000056;
+    --button-login:#2b134b;
+}
+
+*{
+    margin: 0;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 0;
+}
+/*Erro e sucesso sem função*/
+#tratarErro{
+    text-align: center;
+    color: black;
+    background-color:var(--alerta-color);
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+#btn{
+    text-decoration: none;
+}
+#sucessos{
+    text-align: center;
+    color: black;
+    background-color:var(--sucesso-color);
+    padding: 10px;
+    border-radius: 4px;
+    display: none; 
+}
+.buttonCss{
+    width: 80px;
+    background-color: var(--button-login);
+    border: 2px solid var(--primary-color);
+    color:var(--login-secundary);
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition:  0,5s linear;
+    margin: 5px;
+}
+.buttonCss:hover{
+    opacity: 0.8;
+}
+/* erro e sucesso função*/
+.formControl.sucesso input{
+    border-color: var(--sucesso-color);
+}
+
+.formControl.erro input{
+    border-color: var(--alerta-color);
+}
+
+.formControl.sucesso i.fa-check-circle{
+    color: var(--sucesso-color);
+    visibility: visible;
+}
+
+.formControl.erro i.fa-exclamation-circle{
+    color: var(--alerta-color);
+    visibility: visible;
+}
+
+.formControl.erro small{
+    visibility: visible;
+    color: var(--alerta-color);
+}

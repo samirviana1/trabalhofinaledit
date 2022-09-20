@@ -1,0 +1,58 @@
+
+
+
+
+.formControl i {
+    position: relative;
+    visibility: hidden;
+}
+
+.formControl small {
+    position: relative;
+    visibility: hidden;
+}
+
+.backColor{
+    background-color: #004764;
+    animation: backColor 10s;
+}
+
+@keyframes backColor{
+    0% {
+        background-color: #E1F6FF;
+    }
+
+    10% {
+        background-color: #CDF0FF;
+    }
+
+    20% {
+        background-color: #B9EBFF;
+    }
+
+    30%{
+        background-color: #A5E5FF; 
+    }
+    40%{
+        background-color: #91E0FF;
+    }
+    50%{
+        background-color: #73D7FF;
+    }
+    60%{
+        background-color: #55CEFF;
+    }
+    70%{
+        background-color: #3c606e;
+    }
+    80%{
+        background-color: #2d6175;
+    }
+    90%{
+        background-color: #2d6175;
+    }
+    
+    100% {
+        background-color: #004764;
+    }
+}

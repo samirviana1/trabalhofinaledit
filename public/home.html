@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <title>Mensagens-Avaliação do Módulo-BootStrap</title>
+</head>
+<body>
+    <div class="main">
+        <h1 id="logado" class="logadoH1"></h1>
+        <div class="form">
+            <form id="formDesc" class="formConteudo">
+                <input type="text" placeholder="Descrição" id="desc" class="descricao" required>
+                <input type="text" placeholder="Detalhamento" id="detalha" class="detalhamento" required>
+                <input type="submit" id="salvaJs" class="salvarCss"  value="salvar" placeholder="salvar">
+            </form>
+        </div>
+        <div class="table">
+            <table  class="rtable">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Descrição</th>
+                        <th>Detalhamento</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="rtable">
+
+                </tbody>
+                
+            </table>
+        </div>
+        <button class="sair" onclick="sair()">Sair</button> 
+    </div>
+    <script src="assets/js/mensagens.js"></script>
+</body>
+</html>

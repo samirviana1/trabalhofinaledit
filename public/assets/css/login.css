@@ -1,0 +1,83 @@
+
+
+
+.textfield i {
+    position: relative;
+    visibility: hidden;
+}
+
+.textfield small {
+    position: relative;
+    visibility: hidden;
+}
+
+
+
+/* erro e sucesso */
+.textfield.sucesso input{
+    border-color: var(--sucesso-color);
+}
+
+.textfield.erro input{
+    border-color: var(--alerta-color);
+}
+
+.textfield.sucesso i.fa-check-circle{
+    color: var(--sucesso-color);
+    visibility: visible;
+}
+
+.textfield.erro i.fa-exclamation-circle{
+    color: var(--alerta-color);
+    visibility: visible;
+}
+
+.textfield.erro small{
+    visibility: visible;
+    color: var(--alerta-color);
+}
+
+.backColorLog{
+    background-color: #004764;
+    animation: backColor 10s;
+}
+
+@keyframes backColor{
+    0% {
+        background-color: #E1F6FF;
+    }
+
+    10% {
+        background-color: #CDF0FF;
+    }
+
+    20% {
+        background-color: #B9EBFF;
+    }
+
+    30%{
+        background-color: #A5E5FF; 
+    }
+    40%{
+        background-color: #91E0FF;
+    }
+    50%{
+        background-color: #73D7FF;
+    }
+    60%{
+        background-color: #55CEFF;
+    }
+    70%{
+        background-color: #3c606e;
+    }
+    80%{
+        background-color: #2d6175;
+    }
+    90%{
+        background-color: #2d6175;
+    }
+    
+    100% {
+        background-color: #004764;
+    }
+}

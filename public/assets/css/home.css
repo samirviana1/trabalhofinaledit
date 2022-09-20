@@ -1,0 +1,96 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: var(--background-color);
+}
+
+
+.form{
+    width: 100vw;
+    height: 150px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.formConteudo{
+    margin: 20px;
+}
+
+
+.detalhamento{
+    width: 60%;
+    border: 2px solid var(--primary-mens-wthite);
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 8px;
+}
+
+.descricao{
+    width: 25%;
+    border: 2px solid var(--primary-mens-wthite);
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 8px;
+}
+
+.salvarCss{
+    width: 80px;
+    background-color: var(--button-login);
+    border: 2px solid var(--button-color);
+    color:var(--secundary-mens-white);
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition:  0,5s linear;
+}
+
+.salvarCss:hover{
+    opacity: 0.8;
+}
+
+.logadoH1{
+    margin-left: 20px;
+    padding-top: 2px;
+}
+.sair{
+    margin: 20px;
+    width: 80px;
+    background-color: var(--button-login);
+    border: 2px solid var(--button-color);
+    color:var(--secundary-mens-white);
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition:  0,5s linear;
+}
+.table{
+    width: 100vw;
+    height: 60vh;
+    box-sizing: border-box;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:auto;
+}
+
+.rtable{
+    border-radius: 15px;
+    width: 98%;
+    background-color:var(--secundary-mens-white);
+    border-collapse: collapse;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.rtable th, .rtable td {
+    padding: 15px;
+    text-align: left;
+}
+
+.rtable tr:nth-child(even){background-color: #f2f2f2}
+.rtable th{background-color: #04AA6D; color: white;}
